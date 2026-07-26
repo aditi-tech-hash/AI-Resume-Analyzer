@@ -109,6 +109,15 @@ Missing Skills:
 Suggestion:
 Excellent Resume!
 """
+    report = f"""
+Resume Score: {score}/100
+
+Missing Skills:
+{', '.join(missing_skills)}
+
+Suggestions:
+Resume Analysis Complete
+"""
 
 st.download_button(
     label="📥 Download Report",
